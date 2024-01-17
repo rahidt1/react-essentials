@@ -1,6 +1,6 @@
+import reactCoreConceptImg from "../../assets/react-core-concepts.png";
+import { getRandomNumber } from "../../utils/getRandomNumber";
 import "./Header.css";
-import reactCoreConceptImg from "../assets/react-core-concepts.png";
-import { getRandomNumber } from "../utils/getRandomNumber";
 
 export function Header() {
   const reactDescription = ["Fundamental", "Crucial", "Core"];

@@ -1,8 +1,7 @@
-import { Children } from "react";
-
-export function TabButton({ children, onSelect, isSelected }) {
+// ...props -> {onclick()=>}
+export function TabButton({ children, isSelected, ...props }) {
   return (
-    <button className={isSelected ? "active" : ""} onClick={onSelect}>
+    <button className={isSelected ? "active" : ""} {...props}>
       {children}
     </button>
   );
